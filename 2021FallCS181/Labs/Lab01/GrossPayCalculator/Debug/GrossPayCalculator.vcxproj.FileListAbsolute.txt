@@ -1,0 +1,2 @@
+C:\Users\simaa\2021FallCS181\Labs\Lab01\GrossPayCalculator\Debug\GrossPayCalculator.exe
+C:\Users\simaa\Cuyamaca\2021FallCS181\Labs\Lab01\GrossPayCalculator\Debug\GrossPayCalculator.exe

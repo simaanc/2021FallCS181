@@ -1,19 +1,33 @@
 /*************************************************************************
 Cuyamaca College CS-181
 
-File name:	Lab3Exercise1.cpp
+File name:	Lab3Exercise2.cpp
 
-Description: Lab #3, Exercise #1, Counts the number of tickets sold per seat cost
+Description: Lab #3, Exercise #2, Count calories of cookies
 
 Developer: Christopher Simaan
 
 
 *************************************************************************/
 
+#include <iostream>
+
 using namespace std;
 
 int main() {
+	//define variables
+	int cookiesEaten;
+	int calories;
 
+	//get input
+	cout << "How many cookies did you eat? ";
+	cin >> cookiesEaten;
 
-	//return(0)
+	//calculate calories
+	calories = cookiesEaten * 100;
+
+	//output
+	cout << "You consumed " << calories << " calories.";
+
+	return(0);
 }

@@ -1,0 +1,4 @@
+﻿  Lab3Exercise4.cpp
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab03\Lab3Exercise4\Lab3Exercise4.cpp(28,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab03\Lab3Exercise4\Lab3Exercise4.cpp(29,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab3Exercise4.vcxproj -> C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab03\Lab3Exercise4\Debug\Lab3Exercise4.exe

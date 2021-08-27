@@ -18,9 +18,10 @@ int main() {
 	//define variables
 	int number1 = 50;
 	int number2 = 100;
+	int total = number1 + number2;
 
 	//output addition
-	cout << "The total is " << number1 + number2;
+	cout << "The total is " << total;
 
 	return 0;
 }

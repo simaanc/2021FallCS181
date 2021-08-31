@@ -1,0 +1,3 @@
+﻿  Lab4Exercise2.cpp
+C:\Users\simaa\Cuyamaca\2021FallCS181\Labs\Lab04\Lab4Exercise2\Lab4Exercise2.cpp(32,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab4Exercise2.vcxproj -> C:\Users\simaa\Cuyamaca\2021FallCS181\Labs\Lab04\Lab4Exercise2\Debug\Lab4Exercise2.exe

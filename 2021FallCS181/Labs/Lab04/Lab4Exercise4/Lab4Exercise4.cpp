@@ -13,7 +13,6 @@ Developer: Christopher Simaan
 #include <iostream>
 #include <iomanip>
 
-
 using namespace std;
 
 int main() {
@@ -41,16 +40,16 @@ int main() {
 		else {
 			//if distance & weight is valid calculate cost
 			if (weight <= 2) {
-				cost = (distance / 500) * 1.10;
+				cost = 1.10 + (int((distance - 1) / 500) * 1.10);
 			}
 			else if (weight > 2 && weight <= 6) {
-				cost = (distance / 500) * 2.20;
+				cost = 2.20 + (int((distance - 1) / 500) * 2.20);
 			}
 			else if (weight > 6 && weight <= 10) {
-				cost = (distance / 500) * 3.70;
+				cost = 3.70 + (int((distance - 1) / 500) * 3.70);
 			}
 			else if (weight > 10 && weight <= 20) {
-				cost = (distance / 500) * 4.80;
+				cost = 4.80 + (int((distance - 1) / 500) * 4.80);
 			}
 			//output cost
 			cout << "The shipping charge is $" << fixed << setprecision(2) << cost;

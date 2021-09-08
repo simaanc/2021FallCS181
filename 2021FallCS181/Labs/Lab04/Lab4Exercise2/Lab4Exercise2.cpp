@@ -45,4 +45,6 @@ int main() {
 	if (BMI > 30) {
 		cout << "You are obese";
 	}
+
+	return(0);
 }

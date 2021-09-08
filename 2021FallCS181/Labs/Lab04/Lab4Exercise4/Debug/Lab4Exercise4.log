@@ -1,6 +1,6 @@
 ﻿  Lab4Exercise4.cpp
-C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(38,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(43,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(48,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(53,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(43,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(46,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(49,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Lab4Exercise4.cpp(52,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Lab4Exercise4.vcxproj -> C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab04\Lab4Exercise4\Debug\Lab4Exercise4.exe

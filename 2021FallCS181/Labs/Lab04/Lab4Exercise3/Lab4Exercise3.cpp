@@ -48,4 +48,6 @@ int main() {
 	else {
 		cout << "Please enter a number greater than 0.";
 	}
+	
+	return(0);
 }

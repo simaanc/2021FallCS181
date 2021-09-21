@@ -1,0 +1,3 @@
+﻿  Lab6Exercise3.cpp
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab06\Lab6Exercise3\Lab6Exercise3.cpp(60,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab6Exercise3.vcxproj -> C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab06\Lab6Exercise3\Debug\Lab6Exercise3.exe

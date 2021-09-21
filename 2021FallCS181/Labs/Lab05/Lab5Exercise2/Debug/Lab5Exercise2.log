@@ -1,3 +1,4 @@
 ﻿  Lab5Exercise2.cpp
-C:\Users\simaa\Cuyamaca\2021FallCS181\Labs\Lab05\Lab5Exercise2\Lab5Exercise2.cpp(22,22): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Lab5Exercise2.vcxproj -> C:\Users\simaa\Cuyamaca\2021FallCS181\Labs\Lab05\Lab5Exercise2\Debug\Lab5Exercise2.exe
+C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab05\Lab5Exercise2\Lab5Exercise2.cpp(22,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LINK : C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab05\Lab5Exercise2\Debug\Lab5Exercise2.exe not found or not built by the last incremental link; performing full link
+  Lab5Exercise2.vcxproj -> C:\Users\simaa\source\repos\simaanc\Cuyamaca\2021FallCS181\2021FallCS181\Labs\Lab05\Lab5Exercise2\Debug\Lab5Exercise2.exe

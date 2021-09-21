@@ -32,8 +32,8 @@ int main() {
 		if (wholesaleCost < 0) {
 			cout << "Input must be at least 0!\n";
 		}
-		//check if valid
-	} while (!(wholesaleCost >= 0));
+		//keep looping if !valid
+	} while (wholesaleCost < 0);
 	do {
 		cout << "Enter the item's markup percentage: ";
 		cin >> markupPercent;
@@ -41,8 +41,8 @@ int main() {
 		if (markupPercent < 0) {
 			cout << "Input must be at least 0!\n";
 		}
-		//check if valid
-	} while (!(markupPercent >= 0));
+		//keep looping if !valid
+	} while (markupPercent < 0);
 
 	//get retailPrice through function
 	retailPrice = calculateRetail(wholesaleCost, markupPercent);

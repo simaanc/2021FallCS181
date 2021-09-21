@@ -1,9 +1,9 @@
 /*************************************************************************
 Cuyamaca College CS-181
 
-File name:	Lab6Exercise2.cpp
+File name:	Lab6Exercise3.cpp
 
-Description: Lab #6, Exercise #2, Calculate the distance something falls
+Description: Lab #6, Exercise #3, Randomly flips a coin per input
 
 Developer: Christopher Simaan
 
@@ -16,6 +16,7 @@ Developer: Christopher Simaan
 
 using namespace std;
 
+//function prototype
 void coinFlip(int);
 
 int main() {

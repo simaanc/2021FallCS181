@@ -16,6 +16,7 @@ Developer: Christopher Simaan
 
 using namespace std;
 
+//function prototype
 double fallingDistance(double);
 
 int main() {

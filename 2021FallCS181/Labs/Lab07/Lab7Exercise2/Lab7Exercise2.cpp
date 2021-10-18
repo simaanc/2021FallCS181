@@ -18,23 +18,21 @@ using namespace std;
 int main() {
 
 	//define varibales
-	const int jars = 5;
-	string salsa[5] = { "Mild", "Medium", "Sweet", "Hot", "Zesty" };
-	int jar_sales[jars];
+	const int JARS = 5;
+	string salsas[5] = { "Mild", "Medium", "Sweet", "Hot", "Zesty" };
+	int jar_sales[JARS];
 	int jars_sold;
 	int total = 0;
-	int high;
-	int low;
-	string high_name;
-	string low_name;
+	int highest;
+	int lowest;
 
 	//output heading
 	cout << "Sales entries for the past month" << endl;
 
 	//get jars sold
-	for (int i = 0; i < jars; i++) {
+	for (int i = 0; i < JARS; i++) {
 		do {
-			cout << "Jars sold last month of " << salsa[i] << ": ";
+			cout << "Jars sold last month of " << salsas[i] << ": ";
 			cin >> jars_sold;
 
 			//input validation
@@ -44,44 +42,48 @@ int main() {
 		} while (jars_sold < 0);
 		jar_sales[i] = jars_sold;
 	}
-	
-	//set base
-	high = low = jar_sales[0];
 
 	//output heading
 	cout << "\n     Salsa Sales Report" << endl;
 	cout << "\nName\t\t" << right << setw(13) << "Jars Sold" << endl;
 	cout << "-----------------------------" << endl;
+
+	//set base
+	highest = lowest = jar_sales[0];
+
 	//output name of salsa and jars sold
-	for (int i = 0; i < jars; i++) {
-		cout << salsa[i] << "\t\t";
+	for (int i = 0; i < JARS; i++) {
+		cout << salsas[i] << "\t\t";
 		cout << right << setw(13) << jar_sales[i] << endl;
 		
 		//calculate total
 		total += jar_sales[i];
 
-	}
-
-	//calculate highest
-	for (int i = 0; i < jars; i++) {
-		if (jar_sales[i] > high) {
-			low = jar_sales[i];
-			high_name = salsa[i];
+		//calculate highest and lowest subscript
+		if (jar_sales[i] > highest) {
+			highest = jar_sales[i];
+		} else if (jar_sales[i] < lowest) {
+			lowest = jar_sales[i];
 		}
 	}
 
-	//calculate lowest
-	for (int i = 0; i < jars; i++) {
-		if (jar_sales[i] < low) {
-			low = jar_sales[i];
-			low_name = salsa[i];
-		}
+	//output total sales
+	cout << "\nTotal sales:\t" << right << setw(13) << total << endl;
+	
 
+	cout << "High Seller:\t"; 
+
+	//convert highest subscript to highest salsa and output
+	for (int i = 0; i < JARS; i++) {
+		if (jar_sales[i] == highest)
+			cout << right << setw(13) << salsas[i] << endl;
 	}
 
-	//output total sales, highest seller, and lowest seller
-	cout << "\nTotal Sales:\t" << right << setw(13) << total << endl;
-	cout << "High Seller:\t" << right << setw(13) << high_name << endl;
-	cout << "Low Seller:\t" << right << setw(13) << low_name << endl;
+	cout << "Low Seller:\t";
 
+	//convert lowest subscript to lowest salsa and output
+	for (int i = 0; i < JARS; i++) {
+		if (jar_sales[i] == lowest)
+			cout << right << setw(13) << salsas[i] << endl;
+	}
 }

@@ -3,7 +3,7 @@ Cuyamaca College CS-181
 
 File name:	Lab9Exercise1.cpp
 
-Description: Lab #9, Exercise #1, create moviedata structure and output data
+Description: Lab #9, Exercise #1, Create moviedata structure and output data
 
 Developer: Christopher Simaan
 
@@ -18,22 +18,13 @@ using namespace std;
 
 //create struct
 struct MovieData {
-	string title;
-	string director;
-	int year;
-	int runningTime;
-	double productionCost;
-	double firstYRRevenue;
-
-	//set default values just in case of missing data
-	MovieData() {
-		title = "";
-		director = "";
-		year = 0;
-		runningTime = 0;
-		productionCost = 0;
-		firstYRRevenue = 0;
-	}
+	//struct variables
+	string title = "";
+	string director = "";
+	int year = 0;
+	int runningTime = 0;
+	double productionCost = 0;
+	double firstYRRevenue = 0;
 };
 
 //function defintion
